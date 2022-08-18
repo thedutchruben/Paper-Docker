@@ -2,6 +2,7 @@ name: Publish Image
 
 on:
   release:
+    types: [published]
 
 jobs:
   docker:
