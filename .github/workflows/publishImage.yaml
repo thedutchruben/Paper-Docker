@@ -40,4 +40,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: thedutchruben/papermc:$RELEASE_VERSION
+          tags: thedutchruben/papermc:${{ steps.vars.outputs.tag }}
