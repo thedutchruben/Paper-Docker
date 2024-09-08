@@ -1,5 +1,5 @@
-FROM openjdk:18.0.2.1-jdk-slim
-ENV version 1.19.1
+FROM openjdk:21-jdk-slim
+ENV version 1.21.1
 ENV XMS 1G
 ENV XMX 1G
 ENV EULA false
