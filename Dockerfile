@@ -1,4 +1,4 @@
-FROM openjdk:24-jdk-slim
+FROM openjdk:25-jdk-slim
 ENV version 1.21.1
 ENV XMS 1G
 ENV XMX 1G
